@@ -22,15 +22,16 @@ const SidebarItems = ({ toggleMobileSidebar }: any) => {
             return <NavGroup item={item} key={item.subheader} />;
 
             // {/********If Sub Menu**********/}
-          } else if (item.nested) {
-            return (
-              <NavNested
-                item={item}
-                key={item.id}
-                pathDirect={pathDirect}
-                onClick={toggleMobileSidebar}
-              />
-            );
+          // } 
+          // else if (item?.nested) {
+          //   return (
+          //     <NavNested
+          //       item={item}
+          //       key={item.id}
+          //       pathDirect={pathDirect}
+          //       onClick={toggleMobileSidebar}
+          //     />
+          //   );
           } else
             return (
               <NavItem
