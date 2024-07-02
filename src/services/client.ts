@@ -26,6 +26,6 @@ export const createClient = (api_root: string, apiConfig = {}) => {
 
 export const nextClient = createClient("");
 
-export const testClient = createClient("https://backendrestaurant-0etz.onrender.comapi");
+export const testClient = createClient("https://backendrestaurant-0etz.onrender.com/");
 
-export const client = createClient("https://backendrestaurant-0etz.onrender.comapi");
+export const client = createClient("https://backendrestaurant-0etz.onrender.com/");
