@@ -1,5 +1,4 @@
 import { useMediaQuery, Box, Drawer } from "@mui/material";
-import Logo from "../shared/logo/Logo";
 import SidebarItems from "./SidebarItems";
 import { useAppSelector } from "@/redux/hooks";
 import Toolbar from "@mui/material/Toolbar";

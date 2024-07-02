@@ -1,6 +1,5 @@
 import PageContainer from "@/components/container/PageContainer";
 import CustomTextField from "@/components/forms/theme-elements/CustomTextField";
-import Logo from "@/components/shared/logo/Logo";
 import { useState } from "react";
 import {
   Button,

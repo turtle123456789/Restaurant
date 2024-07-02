@@ -5,7 +5,7 @@ import Link from "next/link";
 const ManageRes = () => {
 
   return (
-   
+   <></>
   );
 };
 export default ManageRes;
